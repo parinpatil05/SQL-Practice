@@ -1,12 +1,23 @@
 # SQL Practice Repository
 
-This repository contains my SQL practice queries.
+This repository contains my SQL practice queries while learning database concepts during my MCA program.
 
-Topics Covered:
-- Joins
-- Group By
+## Topics Covered
+- SQL Joins
+- GROUP BY and HAVING
 - Subqueries
-- Aggregation functions
+- Aggregation Functions
+- Practice Problems
 
-Purpose:
-To strengthen my SQL skills for database and data-related roles.
+## Skills Demonstrated
+- Data retrieval using SELECT
+- Data aggregation
+- Query optimization basics
+- Problem solving using SQL
+
+## Tools Used
+- MySQL
+- SQL Query Practice Platforms (HackerRank / LeetCode)
+
+## Purpose
+To strengthen my SQL skills for database, backend, and data-related roles.
