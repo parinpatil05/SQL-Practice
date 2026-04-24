@@ -8,16 +8,16 @@ The goal is to build strong SQL fundamentals for backend development, database m
 ## Repository Structure
 
 SQL-Practice
-│
-├── select_queries.sql → Basic SELECT statements and filtering  
-├── joins.sql → INNER JOIN, LEFT JOIN, RIGHT JOIN examples  
-├── aggregations.sql → COUNT, SUM, AVG, MIN, MAX functions  
-├── groupby.sql → GROUP BY and HAVING clause examples  
-├── subqueries.sql → Nested queries and filtering using subqueries  
-├── case_statements.sql → Conditional logic using CASE  
-├── window_functions.sql → RANK, ROW_NUMBER, running totals  
-├── ddl_commands.sql → CREATE, ALTER, DROP table examples  
-└── practice_problems.sql → SQL interview-style practice problems
+
+- ├── select_queries.sql → Basic SELECT statements and filtering  
+- ├── joins.sql → INNER JOIN, LEFT JOIN, RIGHT JOIN examples  
+- ├── aggregations.sql → COUNT, SUM, AVG, MIN, MAX functions  
+- ├── groupby.sql → GROUP BY and HAVING clause examples  
+- ├── subqueries.sql → Nested queries and filtering using subqueries  
+- ├── case_statements.sql → Conditional logic using CASE  
+- ├── window_functions.sql → RANK, ROW_NUMBER, running totals  
+- ├── ddl_commands.sql → CREATE, ALTER, DROP table examples  
+- └── practice_problems.sql → SQL interview-style practice problems
 
 ---
 
