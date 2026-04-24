@@ -7,6 +7,8 @@ This repository contains my SQL practice queries while learning database concept
 - GROUP BY and HAVING
 - Subqueries
 - Aggregation Functions
+- CASE Statements
+- Window Functions  
 - Practice Problems
 
 ## Skills Demonstrated
