@@ -51,3 +51,30 @@ SELECT
     NULL,
     'Unknown'
 FROM customers;
+
+/* ==========================================================
+   UPDATE STATEMENTS
+-------------------------------------------------------------
+Used to modify existing records in a table.
+========================================================== */
+
+-- Update score for a specific customer
+UPDATE customers
+SET score = 0
+WHERE id = 6;
+
+-- Update multiple columns
+UPDATE customers
+SET score = 0,
+    country = 'UK'
+WHERE id = 10;
+
+-- Replace NULL scores with 0
+UPDATE customers
+SET score = 0
+WHERE score IS NULL;
+
+-- Verify updated records
+SELECT *
+FROM customers
+WHERE score IS NULL;
