@@ -29,3 +29,7 @@ VALUES
 INSERT INTO customers (id, first_name, country, score)
 VALUES (8, 'Max', 'USA', 368);
 
+-- Insert without specifying column names
+-- (works only if values follow table column order)
+INSERT INTO customers
+VALUES (9, 'Andreas', 'Germany', NULL);
