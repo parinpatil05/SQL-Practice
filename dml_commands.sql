@@ -12,3 +12,15 @@ Author: Parin Patil
 Learning Notes
 Reference inspiration: Data With Baraa SQL tutorials
 ========================================================== */
+
+/* ==========================================================
+   INSERT STATEMENTS
+-------------------------------------------------------------
+Used to add new rows into a table.
+========================================================== */
+
+-- Insert multiple records into customers table
+INSERT INTO customers (id, first_name, country, score)
+VALUES
+(6, 'Anna', 'USA', NULL),
+(7, 'Sam', NULL, 100);
