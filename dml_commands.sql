@@ -37,3 +37,17 @@ VALUES (9, 'Andreas', 'Germany', NULL);
 -- Insert partial data (remaining columns become NULL or default)
 INSERT INTO customers (id, first_name)
 VALUES (10, 'Sahra');
+
+/* ==========================================================
+   INSERT USING SELECT
+-------------------------------------------------------------
+Used to copy data from one table into another table.
+========================================================== */
+
+INSERT INTO persons (id, person_name, birth_date, phone)
+SELECT
+    id,
+    first_name,
+    NULL,
+    'Unknown'
+FROM customers;
