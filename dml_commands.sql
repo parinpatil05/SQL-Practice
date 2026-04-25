@@ -33,3 +33,7 @@ VALUES (8, 'Max', 'USA', 368);
 -- (works only if values follow table column order)
 INSERT INTO customers
 VALUES (9, 'Andreas', 'Germany', NULL);
+
+-- Insert partial data (remaining columns become NULL or default)
+INSERT INTO customers (id, first_name)
+VALUES (10, 'Sahra');
