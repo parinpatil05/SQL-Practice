@@ -78,3 +78,24 @@ WHERE score IS NULL;
 SELECT *
 FROM customers
 WHERE score IS NULL;
+
+/* ==========================================================
+   DELETE STATEMENTS
+-------------------------------------------------------------
+Used to remove records from a table.
+========================================================== */
+
+-- Check records before deleting
+SELECT *
+FROM customers
+WHERE id > 5;
+
+-- Delete selected rows
+DELETE FROM customers
+WHERE id > 5;
+
+-- Remove all records from table
+DELETE FROM persons;
+
+-- Faster method to remove all rows (cannot be rolled back easily)
+TRUNCATE TABLE persons;
