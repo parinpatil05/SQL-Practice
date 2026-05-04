@@ -1,7 +1,7 @@
 # SQL Practice Repository
 
 This repository contains my structured SQL practice while learning database concepts during my MCA program.
-The goal of this repository is to build strong SQL fundamentals for backend development, database management, and data analysis.
+It focuses on building strong SQL fundamentals for backend development, database management, and data analysis.
 
 ---
 
@@ -11,25 +11,25 @@ The goal of this repository is to build strong SQL fundamentals for backend deve
 SQL-Practice
 │
 ├── select_queries.sql       # Basic SELECT statements and filtering
-├── joins.sql                # INNER JOIN, LEFT JOIN, RIGHT JOIN examples
+├── filtering_data.sql       # WHERE clause and filtering techniques
+├── joins.sql                # Joins + real-world use cases
 ├── aggregations.sql         # COUNT, SUM, AVG, MIN, MAX functions
 ├── groupby.sql              # GROUP BY and HAVING clause examples
-├── subqueries.sql           # Nested queries and filtering
+├── subqueries.sql           # Nested queries
 ├── case_statements.sql      # Conditional logic using CASE
 ├── window_functions.sql     # RANK, ROW_NUMBER, running totals
-├── ddl_commands.sql         # CREATE, ALTER, DROP table examples
-├── dml_commands.sql         # INSERT, UPDATE, DELETE examples
-└── practice_problems.sql    # SQL interview-style practice problems
+├── ddl_commands.sql         # CREATE, ALTER, DROP
+├── dml_commands.sql         # INSERT, UPDATE, DELETE
+├── null_handling.sql        # NULL handling techniques
+└── practice_problems.sql    # Interview-style SQL problems
 ```
 
 ---
 
 ## Topics Covered
 
-This repository includes practice examples for the following SQL concepts:
-
 * SELECT queries and filtering
-* Table joins
+* Joins (including real-world scenarios)
 * Aggregation functions
 * GROUP BY and HAVING
 * Subqueries
@@ -37,25 +37,22 @@ This repository includes practice examples for the following SQL concepts:
 * Window functions
 * Data Definition Language (DDL)
 * Data Manipulation Language (DML)
+* NULL handling
 
 ---
 
 ## Skills Demonstrated
 
-Through these exercises, the following SQL skills are practiced:
-
-* Writing efficient SQL queries
-* Data filtering and retrieval
-* Data aggregation and grouping
-* Query logic using conditional statements
-* Analytical thinking using SQL problems
-* Understanding relational database structures
+* Writing efficient and optimized SQL queries
+* Data filtering and transformation
+* Aggregation and analytical querying
+* Solving real-world SQL problems
+* Combining multiple SQL concepts in a single query
+* Understanding relational database structure
 
 ---
 
-## Example Query
-
-Example of a query used in data analysis:
+## Sample Query
 
 ```sql
 SELECT department, AVG(salary) AS average_salary
@@ -64,33 +61,59 @@ GROUP BY department
 HAVING AVG(salary) > 50000;
 ```
 
-This query calculates the average salary for each department and filters departments where the average salary exceeds 50,000.
+This query calculates the average salary per department and filters only those with high averages.
+
+---
+
+## Practice Problems
+
+This repository includes interview-style SQL problems such as:
+
+* Finding the second highest salary
+* Identifying duplicate records
+* Ranking employees using window functions
+* Filtering data using subqueries
+
+These problems are implemented in:
+
+```
+practice_problems.sql
+```
 
 ---
 
 ## Tools Used
 
-The following tools were used while practicing SQL:
-
 * Microsoft SQL Server
 * SQL Server Management Studio (SSMS)
-* SQL practice platforms such as HackerRank and LeetCode
+* HackerRank
+* LeetCode
+
+---
+
+## Learning Progress
+
+✔ Basic Queries
+✔ Joins
+✔ Aggregations
+✔ Subqueries
+✔ Window Functions
+⬜ Stored Procedures
+⬜ Index Optimization
+⬜ Query Performance Tuning
 
 ---
 
 ## Purpose
 
-This repository serves as a personal learning journal documenting my progress in SQL while pursuing my MCA.
-It is intended to strengthen my understanding of databases and improve problem-solving skills using SQL.
+This repository serves as a personal learning journal and portfolio to demonstrate my SQL skills while pursuing MCA.
+It reflects consistent practice, problem-solving ability, and progression toward advanced database concepts.
 
 ---
 
-## Future Additions
+## Future Improvements
 
-The repository will continue to grow as new topics are learned, including:
-
-* Common Table Expressions (CTE)
-* Views
-* Stored Procedures
-* Triggers
-* Query performance optimization
+* Add Common Table Expressions (CTE)
+* Implement Views and Stored Procedures
+* Include query optimization examples
+* Add real-world mini SQL projects
