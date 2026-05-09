@@ -22,6 +22,7 @@ SQL-Practice
 ├── dml_commands.sql         # INSERT, UPDATE, DELETE
 ├── null_handling.sql        # NULL handling techniques
 └── practice_problems.sql    # Interview-style SQL problems
+├── cte_queries.sql          # Common Table Expressions and recursive queries
 ```
 
 ---
