@@ -39,6 +39,7 @@ SQL-Practice
 * Data Definition Language (DDL)
 * Data Manipulation Language (DML)
 * NULL handling
+* Common Table Expressions (CTEs)
 
 ---
 
